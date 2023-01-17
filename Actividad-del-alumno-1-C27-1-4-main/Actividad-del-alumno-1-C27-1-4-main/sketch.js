@@ -23,8 +23,9 @@ function setup() {
   world = engine.world;
   angle= -PI/4;
 
-tower = new Tower (150,350,160,310)
-cannon = new Cannon (180,110,140,70,angle);
+tower = new Tower (150,350,160,310);
+//cambio de tamaño
+cannon = new Cannon (180,110,140,50,angle);
 
   rectMode(CENTER);
   ellipseMode(RADIUS);
